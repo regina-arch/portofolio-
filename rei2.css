@@ -1,0 +1,28 @@
+:root {
+  --ungu: #ffffff;
+  --hijau: #1f2b68;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  --biru: var(--hijau);
+}
+
+.hero {
+  height: 100vh;
+  background: linear-gradient(135deg, var(--ungu), var(--hijau));
+  color: rgb(99, 188, 255);
+  padding-top: 100px;
+}
+
+footer {
+  background-color: var(--ungu);
+}
+
+a {
+  color: var(--hijau);
+}
+
+a:hover {
+  color: rgb(0, 0, 0);
+}
