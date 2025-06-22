@@ -1,28 +1,26 @@
-:root {
-  --ungu: #ffffff;
-  --hijau: #1f2b68;
-}
+/* style.css */
 
 body {
-  font-family: "Segoe UI", sans-serif;
-  --biru: var(--hijau);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.hero {
-  height: 100vh;
-  background: linear-gradient(135deg, var(--ungu), var(--hijau));
-  color: rgb(99, 188, 255);
-  padding-top: 100px;
+.navbar-brand {
+  font-weight: bold;
 }
 
-footer {
-  background-color: var(--ungu);
+.hero h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
 }
 
-a {
-  color: var(--hijau);
+.profile-img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border: 5px solid #333;
 }
 
-a:hover {
-  color: rgb(0, 0, 0);
+.skill-box {
+  border-radius: 10px;
+  font-weight: bold;
 }

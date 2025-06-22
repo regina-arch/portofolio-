@@ -1,5 +1,5 @@
 :root {
-  --my-custom-color: #eb343a;
+  --my-custom-color: #f40187;
 }
 
 section {
@@ -8,8 +8,8 @@ section {
 }
 
 .custom-thumbnail {
-  border: 4px solid #6cd8ff !important; /* Warna border biru Bootstrap */
-  box-shadow: 0 0 15px #6cd8ff !important; /* Shadow default */
+  border: 4px solid #eca1bb !important; /* Warna border biru Bootstrap */
+  box-shadow: 0 0 15px #eca1bb !important; /* Shadow default */
 }
 .hero-box .box p {
   width: 500px;
@@ -40,7 +40,13 @@ section {
 .btn-outline-primary:hover,
 .btn-outline-primary:active,
 .btn-outline-primary:focus {
-  color: #fff !important;
+  color: #0c0c0c !important;
   background-color: var(--my-custom-color);
   border-color: var(--my-custom-color);
-}
+
+
+  body {
+    background-color: #5c3140; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #212529; 
+  } 
